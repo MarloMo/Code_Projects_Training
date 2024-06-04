@@ -1,0 +1,1 @@
+std::string bleep(std::string &text, std::string word);
