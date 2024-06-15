@@ -1,0 +1,4 @@
+Name, Age, Height
+Alice, 31, 165
+Bob, , 175
+Charlie, 25, 
