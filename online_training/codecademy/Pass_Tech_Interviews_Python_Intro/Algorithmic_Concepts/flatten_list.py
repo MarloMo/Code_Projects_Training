@@ -8,6 +8,8 @@ def flatten(my_list):
             flat_list = flatten(i)
             for j in flat_list:
                 result.append(j)
+        else:
+            result.append(i)
 
     return result
 
@@ -17,5 +19,4 @@ planets = [
     'mercury', 'venus', ['earth'], 'mars', [['jupiter', 'saturn']], 'uranus',
     ['neptune', 'pluto']
 ]
-
-flatten(planets)
+print(flatten(planets))
